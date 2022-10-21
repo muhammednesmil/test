@@ -1,0 +1,63 @@
+/* external font family */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-color: darkkhaki;
+    /* background-image: url(https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80); */
+}
+h1{
+    color:darkblue;
+}
+p{
+    font-size: 34px;
+    font-family: 'Pacifico', cursive;
+    color: blueviolet;
+}
+.hi{
+    font-size: 50px;
+    background-color: green;
+}
+
+*{
+    background-color:magenta;
+}
+#luminar{
+    background-color: blueviolet;
+    color: brown;
+    font-weight: bold;
+    margin: 20%;
+}
+.newclass{
+    border: 10px dotted blue;
+    pad: 20%;
+}
+#biodata:link{
+    text-align: center;
+    text-decoration: none;
+    margin: 45%;
+    /* margin-right: 50%; */
+    background-color: cornflowerblue;
+    padding: 13px;
+    border-radius: 10%;
+}
+#biodata:hover{
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(10, 150, 59);
+    padding: 14px;
+    border-radius: 10%;
+}
+#biodata:visited{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(116, 7, 180);
+    padding: 13px;
+    border-radius: 10%;
+}
+#decoration{
+    font-weight: bold;
+    text-decoration-line: line-through;
+    text-decoration-color: chartreuse;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
